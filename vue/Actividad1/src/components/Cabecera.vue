@@ -5,7 +5,6 @@ defineEmits(['abrir-modelos'])
 <template>
   <header class="cabecera">
     <a class="marca" href="#inicio">STEPUP</a>
-    <nav><a href="#modelos">Modelos</a><a href="#contacto">Contacto</a></nav>
     <nav>
       <a href="#modelos" @click.prevent="$emit('abrir-modelos')">Modelos</a>
       <a href="#contacto">Contacto</a>

@@ -10,10 +10,8 @@ const mostrarCatalogo = ref(false)
 </script>
 
 <template>
-  <Cabecera />
   <Cabecera @abrir-modelos="mostrarCatalogo = true" />
   <main>
-    <Inicio />
     <Inicio  @abrir-modelos="mostrarCatalogo = true"/>
     <Modelos />
   </main>
